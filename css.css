@@ -1,0 +1,51 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  background-image: url("green-field-in-sunny-day-vector.jpg");
+}
+.parentBox{
+  position: absolute;
+  left: 110%;
+}
+.box{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin-left: 110%;
+  translate: 2s;
+}
+#birdBox{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+#bird{
+  height: 100px;
+  width: 100px;
+}
+#dieScreen{
+  position: absolute;
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+#restartButton{
+  width: 100px;
+  height: 50px;
+}
+#label{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  font-size: 60px;
+  color: white;
+  z-index: 20;
+}
+
+
+
